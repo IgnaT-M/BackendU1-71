@@ -20,10 +20,28 @@ if ($_version == 'V1'){
                 if ($header == $_token_get){
                     $lista = [
                         [
-                            'dato1' => 1,
-                            'dato2' => 2,
-                            'dato3' => true,
+                            "id" => "1",
+                            "titulo" => [
+                                "esp" => "Consultoría digital"
+                            ],
+                            "texto" => [
+                                "esp" => "Identificamos las fallas y conectamos los puntos entre tu negocio y tu estrategia digital. Nuestro equipo experto cuenta con años de experiencia en la definición de estrategias y hojas de ruta en función de tus objetivos específicos."
+                            ],
+                            "activo" => true
+                        
+                        ],
+                        [
+                            "id" => "1",
+                            "titulo" => [
+                                "esp" => "Consultoría digital"
+                            ],
+                            "texto" => [
+                                "esp" => "Identificamos las fallas y conectamos los puntos entre tu negocio y tu estrategia digital. Nuestro equipo experto cuenta con años de experiencia en la definición de estrategias y hojas de ruta en función de tus objetivos específicos."
+                            ],
+                            "activo" => true
+                        
                         ]
+                    
                         
                         ];
                         http_response_code(200);
