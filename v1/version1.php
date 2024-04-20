@@ -32,7 +32,7 @@ try {
     echo json_encode(['Error' => $e->getMessage()]);
 }
 
-$_token_get = 'Bearer get';
+$_token_get = 'Bearer ciisa';
 $_token_post = 'Bearer post';
 $_token_put = 'Bearer put';
 $_token_patch = 'Bearer patch';
